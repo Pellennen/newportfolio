@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import HelloComponent from './animations/hellocomponent/HelloComponent.js'
+import {HelloComponent} from './animations'
 
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './global';
