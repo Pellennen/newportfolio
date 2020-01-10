@@ -6,11 +6,12 @@ html, body, .hello-parent {
 
 .hello-parent {
   display: flex;
-  background: #706534;
-  background: -webkit-radial-gradient(#706534, #706534);
-  background: -o-radial-gradient(#706534, #706534);
-  background: -moz-radial-gradient(#706534, #706534);
-  background: radial-gradient(#706534, #706534);
+  background: primaryDark;
+  background: -webkit-radial-gradient(primaryDark, primaryDark);
+  background: -o-radial-gradient(primaryDark, primaryDark);
+  background: -moz-radial-gradient(primaryDark, primaryDark);
+  background: radial-gradient(primaryDark, primaryDark);
+  position: relative;
 }
 
 .hello-word {
