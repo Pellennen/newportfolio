@@ -52,7 +52,7 @@ const Wrapper = styled.div`
   transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
-  width: 50vw;
+  width: 10vw;
 `;
 
 const Box = styled(animated.div)`
