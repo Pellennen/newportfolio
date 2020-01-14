@@ -1,12 +1,41 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { Switch, Route, BrowserRouter, NavLink } from 'react-router-dom';
+import {HelloComponent} from './animations'
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyles } from './global';
+import { theme } from './theme';
+import { Burger, Menu } from './components';
+import { useOnClickOutside } from './hooks';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const App = () => {
+  const node = useRef();
+  useOnClickOutside(node, () => setOpen(false));
+  const [open, setOpen] = useState(false);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+  return (
+    <ThemeProvider theme={theme}>
+       <>
+
+         <GlobalStyles />
+
+         <div ref={node}>
+         <Burger open = {open} setOpen={setOpen}/>
+         <Menu open = {open} setOpen={setOpen} />
+         </div>
+         <HelloComponent/>
+
+       </>
+     </ThemeProvider>
+  );
+};
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root'),
+);
+
 serviceWorker.unregister();
