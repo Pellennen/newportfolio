@@ -2,7 +2,8 @@ import React from "react";
 import { useTransition, animated, config } from "react-spring";
 import useRouter from "../useRouter";
 import Page from "../components/Page";
-import HelloComponent from "../animations/hellocomponent/HelloComponent";
+import HelloComponent from "../animations/hellocomponent/HelloComponent"
+
 const Home = () => {
   const { location } = useRouter();
   const transitions = useTransition(location, location => location.pathname, {
@@ -13,10 +14,11 @@ const Home = () => {
   });
 
   return (
-    <Page style={{ background: "lightpink" }}>
+    <Page>
       {transitions.map(({ item, props, key }) => (
         <animated.span key={key} style={props}>
-          <HelloComponent />
+<HelloComponent/>
+
         </animated.span>
       ))}
     </Page>

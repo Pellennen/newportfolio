@@ -14,10 +14,8 @@ const Menu = ({ open }) => {
 
     <NavLink to="/about">About</NavLink>
       <NavLink to="/Skills">Skills</NavLink>
-        <a href="/">
-          <span role="img" aria-label="contact"></span>
-          Contact
-          </a>
+      <NavLink to="/Contact">Contact</NavLink>
+
     </StyledMenu>
   )
 }

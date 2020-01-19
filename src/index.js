@@ -14,6 +14,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Navigation from "./components/Navigation"
 import Skills from "./Pages/Skills"
+import Contact from "./Pages/Contact"
 
 const App = () => {
   const { location } = useRouter();
@@ -48,6 +49,7 @@ const App = () => {
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
             <Route path="/Skills" component={Skills} />
+            <Route path="/Contact" component={Contact} />
           </Switch>
         </animated.div>
       ))}

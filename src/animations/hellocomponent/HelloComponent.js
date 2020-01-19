@@ -28,12 +28,8 @@ function HelloComponent() {
              <circle className="O-stroke" cx={231} cy={215} r={48} stroke="#fccf03" fill="none" strokeWidth={31} />
            </g>
            <g id="red-dot">
-             {/* Initially I tried creating a circle but it was harder to manipulate it how I wanted to in CSS so I resorted to using a line trick to make it look like a circle ....
-
-     <circle class="red-dot" cx="325" cy="260" r="20" fill="#FF5851" stroke="none" />
-
-     */}
-             <line x1={325} y1={260} x2={325} y2={260} stroke="#FF5851" className="red-dot" />
+            
+             <line x1={325} y1={260} x2={325} y2={260} stroke="#8e1c00" className="red-dot" />
            </g>
          </svg>
        </div>
