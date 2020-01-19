@@ -1,0 +1,14 @@
+#profile-pic {
+
+  width: 22ch;
+ height: 22ch;
+
+ border-radius: 100%;
+ background-image: url(./images/profilepic.jpg);
+ background-size: cover;
+
+
+
+
+
+}

@@ -39,7 +39,7 @@ const App = () => {
       <Menu open = {open} setOpen={setOpen} />
       </div>
 
-    
+
 
       {transitions.map(({ item, props, key }) => (
         <animated.div key={key} style={props}>
