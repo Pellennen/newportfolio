@@ -13,6 +13,7 @@ import { useTransition, animated } from "react-spring";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Navigation from "./components/Navigation"
+import Skills from "./Pages/Skills"
 
 const App = () => {
   const { location } = useRouter();
@@ -46,6 +47,7 @@ const App = () => {
           <Switch location={item}>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
+            <Route path="/Skills" component={Skills} />
           </Switch>
         </animated.div>
       ))}

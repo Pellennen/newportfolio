@@ -13,10 +13,7 @@ const Menu = ({ open }) => {
 
 
     <NavLink to="/about">About</NavLink>
-      <a href="/">
-        <span role="img" aria-label="contact"></span>
-        Skills
-        </a>
+      <NavLink to="/Skills">Skills</NavLink>
         <a href="/">
           <span role="img" aria-label="contact"></span>
           Contact
