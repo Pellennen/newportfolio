@@ -10,8 +10,8 @@ const pages = [
   ({ style }) => <animated.div style={{ ...style, }}>Angular Level Beginner</animated.div>,
   ({ style }) => <animated.div style={{ ...style, }}>Css Level Intermediate</animated.div>,
   ({ style }) => <animated.div style={{ ...style, }}>Html Level Intermediate </animated.div>,
-  ({ style }) => <animated.div style={{ ...style,width:'300px', fontSize:'0.9em'  }}>Just started using testframeworks Ex. Jest </animated.div>,
-  ({ style }) => <animated.div style={{ ...style, width:'300px', fontSize:'1em' }}>Tools i use : Node, Git, Gitlab, Atom </animated.div>,
+  ({ style }) => <animated.div style={{ ...style,width:'300px', fontSize:'0.9em'  }}> I Just started using testframeworks: Jest, Enzyme </animated.div>,
+  ({ style }) => <animated.div style={{ ...style, width:'300px', fontSize:'1em' }}>Tools I use : Node, Git, Gitlab, Atom </animated.div>,
   ({ style }) => <animated.div style={{ ...style, width:'300px', fontSize:'1em' }}>... </animated.div>
 ]
 
