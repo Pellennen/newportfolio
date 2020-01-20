@@ -28,7 +28,7 @@ function HelloComponent() {
              <circle className="O-stroke" cx={231} cy={215} r={48} stroke="#fccf03" fill="none" strokeWidth={31} />
            </g>
            <g id="red-dot">
-            
+
              <line x1={325} y1={260} x2={325} y2={260} stroke="#8e1c00" className="red-dot" />
            </g>
          </svg>

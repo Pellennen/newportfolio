@@ -2,7 +2,8 @@ import React from "react";
 import { useTransition, animated, config } from "react-spring";
 import useRouter from "../useRouter";
 import Page from "../components/Page";
-import HelloComponent from "../animations/hellocomponent/HelloComponent"
+import { HelloComponent } from "../animations";
+import { TypingText } from "../animations";
 
 const Home = () => {
   const { location } = useRouter();
@@ -17,8 +18,8 @@ const Home = () => {
     <Page>
       {transitions.map(({ item, props, key }) => (
         <animated.span key={key} style={props}>
-<HelloComponent/>
-
+          <HelloComponent />
+          <TypingText />
         </animated.span>
       ))}
     </Page>

@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import { useTransition, useSprings, animated, config } from "react-spring";
+import React from "react";
+
+import { useTransition, animated, config } from "react-spring";
 import useRouter from "../useRouter";
 import Page from "../components/Page";
 
@@ -21,9 +21,9 @@ const About = () => {
             <div className="txt-wrapper">
               <h2>I’m Per Zackrisson</h2>
               <p className="excerpt">
-                I combine the best of our skills and ideas to present you
-                products really worth your attention that will change the way
-                you think about design, structure, color and website itself.{" "}
+                I have good attention to detail, people skills
+                and really like problem solving. I have an empathic and
+                fun personality and I am very passionate about what I do.
               </p>
             </div>
           </div>
@@ -33,15 +33,6 @@ const About = () => {
   );
 };
 
-const Box = styled(animated.div)`
-  width: 500px;
-  xheight: 100px;
-  margin-right: 20px;
-  border-radius: 4px;
 
-  &:last-child {
-    margin-right: 0;
-  }
-`;
 
 export default About;

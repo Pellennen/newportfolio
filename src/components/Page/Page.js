@@ -37,6 +37,7 @@ const Page = styled.main`
 
             span {color:#ccc;}
           }
+          
 
 
 `;
