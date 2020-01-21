@@ -17,6 +17,24 @@ html, body, .hello-parent {
 .hello-word {
   margin:auto;
   margin-top:20px;
+  width:365px;
+  height:365px;
+
+
+}
+@media(max-width:1300px){
+  .hello-word {
+    width:250px;
+    height:250px;
+  }
+
+}
+@media(max-width:1000px){
+  .hello-word{
+    width:150px;
+    height:150px;
+
+  }
 }
 /* H Animation */
 

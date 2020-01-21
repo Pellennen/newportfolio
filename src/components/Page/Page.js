@@ -14,6 +14,28 @@ const Page = styled.main`
     width:100%;
     font-weight:600;
     font-size:20px;
+    @media(max-width:870px){
+      font-size:12px;
+      margin-bottom:1rem;
+      line-height:1;
+      font-weight:600;
+    }
+    @media(max-width:760px){
+      font-size:9px;
+      margin-bottom:1rem;
+      line-height:1;
+      font-weight:600;
+      padding-left:200px;
+    }
+    @media(max-width:576px){
+      font-size:9px;
+      margin-bottom:1rem;
+      line-height:1;
+      font-weight:600;
+      padding-left:50px;
+
+
+    }
 
 
   }
@@ -34,27 +56,49 @@ const Page = styled.main`
             margin-bottom:2rem;
             line-height:1;
             font-weight:600;
+
+            @media(max-width:900px){
+              font-size:2.3rem;
+              margin-bottom:1rem;
+              padding-left:200px;
+              line-height:1;
+              font-weight:600;
+            }
+            @media(max-width:700px){
+              font-size:2.3rem;
+              margin-bottom:1rem;
+              line-height:1;
+              font-weight:600;
+            }
+            @media(max-width:576px){
+              margin:0;
+              font-size:2.3rem;
+              margin-bottom:1rem;
+              line-height:1;
+              font-weight:600;
+              padding-left:50px;
+
+
+            }
           }
 
-          h3 {
-            margin:0;
-            font-size:2rem;
-            margin-bottom:2rem;
-            line-height:1;
-            font-weight:400;
+          p {
+            @media(max-width:900px){
+              padding-left:200px;
+              font-size:0.8rem;
 
-            span {color:#ccc;}
+            }
+            @media(max-width:576px){
+              padding-left:50px;
+              font-size:0.8rem;
+
+
+
+            }
+
           }
         }
 
-          @media all and (max-width: 699px) and (min-width: 520px) {
-            .hello-word {
-              margin:auto;
-              margin-top:20px;
-              width:120px;
-              height:120px;
-            }
-          }
 
 
 

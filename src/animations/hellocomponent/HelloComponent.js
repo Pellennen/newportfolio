@@ -4,7 +4,7 @@ import './HelloComponent.css'
 function HelloComponent() {
   return (
     <div className="hello-parent">
-         <svg className="hello-word" width={365} height={365} viewBox="0 0 365 365">
+         <svg className="hello-word" viewBox="0 0 365 365">
            <g id="H-letter">
              <line className="H-left-stroke" x1={17} y1={0} x2={17} y2={124} stroke="white" fill="none" strokeWidth={34} />
              <line className="H-mid-stroke" x1={33} y1={62} x2={68} y2={62} stroke="white" fill="none" strokeWidth={34} />

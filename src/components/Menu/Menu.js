@@ -5,16 +5,20 @@ import { bool } from 'prop-types';
 import { NavLink } from 'react-router-dom'
 import Pic from './Pic'
 
-const Menu = ({ open }) => {
+const Menu = ({ open, setOpen }) => {
+ const setopen = () => {
+   setOpen(!open)
+ }
+
   return (
     <StyledMenu open={open}>
     <Pic/>
-      <NavLink to="/">Home</NavLink>
+      <NavLink to="/" onClick={setopen}>Home</NavLink>
 
 
-    <NavLink to="/about">About</NavLink>
-      <NavLink to="/Skills">Skills</NavLink>
-      <NavLink to="/Contact">Contact</NavLink>
+    <NavLink to="/about" onClick={setopen}>About</NavLink>
+      <NavLink to="/Skills" onClick={setopen}>Skills</NavLink>
+      <NavLink to="/Contact" onClick={setopen}>Contact</NavLink>
 
     </StyledMenu>
   )

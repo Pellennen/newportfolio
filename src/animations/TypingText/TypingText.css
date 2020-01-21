@@ -29,3 +29,17 @@
   from, to { border-color: transparent }
   50% { border-color: white }
 }
+
+
+@media(max-width:1300px){
+.typewriter h1 {
+  font-size: 14px;
+}
+
+}
+@media(max-width:1000px){
+  .typewriter h1 {
+    font-size: 8px;
+  }
+
+}
