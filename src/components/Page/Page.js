@@ -9,6 +9,14 @@ const Page = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
+  ul {
+    columns:2;
+    width:100%;
+    font-weight:600;
+    font-size:20px;
+
+
+  }
   .slide-content {
         display:block;
         width:50%;
@@ -37,7 +45,18 @@ const Page = styled.main`
 
             span {color:#ccc;}
           }
-          
+        }
+
+          @media all and (max-width: 699px) and (min-width: 520px) {
+            .hello-word {
+              margin:auto;
+              margin-top:20px;
+              width:120px;
+              height:120px;
+            }
+          }
+
+
 
 
 `;

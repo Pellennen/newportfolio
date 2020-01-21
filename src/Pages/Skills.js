@@ -2,7 +2,7 @@ import React from "react";
 import { useTransition, animated, config } from "react-spring";
 import useRouter from "../useRouter";
 import Page from "../components/Page";
-import SkillsComponent from "../components/Skills/SkillsComponent";
+
 const Skills = () => {
   const { location } = useRouter();
   const transitions = useTransition(location, location => location.pathname, {
@@ -16,7 +16,15 @@ const Skills = () => {
     <Page style={{ background: "lightpink" }}>
       {transitions.map(({ item, props, key }) => (
         <animated.span key={key} style={props}>
-          <SkillsComponent />
+          <ul>
+            <li>Es6 Level: Intermediate </li>
+            <li>React Level: Beginner</li>
+            <li>Angular Level: Beginner</li>
+            <li>Css Level: Intermediate</li>
+            <li>Html Level: Intermediate </li>
+            <li>Testframeworks: Jest, Enzyme</li>
+            <li>Tools : Node, Git, Gitlab, Webpack etc.. </li>
+          </ul>
         </animated.span>
       ))}
     </Page>

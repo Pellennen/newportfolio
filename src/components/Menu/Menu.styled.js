@@ -11,11 +11,13 @@ export const StyledMenu = styled.nav`
   position: absolute;
   top: 0;
   left: 0;
-  transition: transform 0.3s ease-in-out;
-  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+
+
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 100%;
+    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+    transition: transform 0.3s ease-in-out;
   }
 
   a {
@@ -34,7 +36,7 @@ export const StyledMenu = styled.nav`
     }
 
     &:hover {
-      color: ${({ theme }) => theme.primaryHover};
+      color: #8e1c00;
     }
   }
 `;

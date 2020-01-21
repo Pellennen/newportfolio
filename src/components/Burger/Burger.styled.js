@@ -4,7 +4,7 @@ export const StyledBurger = styled.button`
   position: absolute;
   top: 5%;
   left: 2rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   width: 2rem;
@@ -40,5 +40,8 @@ export const StyledBurger = styled.button`
     :nth-child(3) {
       transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
     }
+  }
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    display:flex;
   }
 `;

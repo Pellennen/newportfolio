@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./global";
 import { theme } from "./theme";
 import { Burger, Menu } from "./components";
-import { useOnClickOutside } from "./hooks";
+
 import * as serviceWorker from "./serviceWorker";
 import useRouter from "./useRouter";
 import { useTransition, animated } from "react-spring";
@@ -23,8 +23,8 @@ const App = () => {
   });
 
   const node = useRef();
-  useOnClickOutside(node, () => setOpen(false));
-  const [open, setOpen] = useState(false);
+
+  const [open, setOpen] = useState(true);
 
   return (
     <ThemeProvider theme={theme}>

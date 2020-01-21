@@ -1,6 +1,7 @@
 
 import { useSpring, animated } from 'react-spring'
 import React from 'react'
+
 import './Pic.css'
 
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 20, (x - window.innerWidth / 2) / 20, 1.1]

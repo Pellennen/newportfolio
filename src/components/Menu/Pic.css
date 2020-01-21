@@ -1,5 +1,5 @@
 #profile-pic {
-
+  
   width: 22ch;
  height: 22ch;
 
@@ -11,4 +11,12 @@
 
 
 
+
+
+
+}
+@media (max-width:576px) {
+  #profile-pic {
+    display:none;
+  }
 }
