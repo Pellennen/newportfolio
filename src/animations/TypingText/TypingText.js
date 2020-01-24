@@ -5,7 +5,7 @@ import './TypingText.css'
 function TypingText() {
   return (
     <div class="typewriter">
-      <h1>This resume was built using React-Springs</h1>
+      <h1>I am a FrontEnd Developer in training</h1>
     </div>
 
   );

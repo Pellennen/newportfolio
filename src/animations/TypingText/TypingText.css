@@ -8,7 +8,7 @@
   letter-spacing: .12em; /* Adjust as needed */
   opacity:0;
   animation:
-    typing 6s steps(41, end),
+    typing 6s steps(37, end),
     blink-caret .7s step-end infinite;
     animation-delay: 4s;
 
