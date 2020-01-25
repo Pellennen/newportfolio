@@ -24,7 +24,7 @@ const ContactComponent = () => {
           </a>
         </li>
         <li>
-        <a href="https://github.com/Pellennen">
+        <a href="https://github.com/Pellennen/newportfolio">
           <svg
             className="icons"
             xmlns="http://www.w3.org/2000/svg"
