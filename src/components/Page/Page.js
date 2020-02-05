@@ -19,6 +19,19 @@ const Page = styled.main`
     padding-left:750px;
     margin-top:2em;
   }
+
+.Listcontainer{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left:200px;
+
+
+}
   ul {
     columns:2;
     width:100%;
@@ -47,8 +60,12 @@ const Page = styled.main`
 
     }
 
-
   }
+.Skillsanim{
+  padding-left:100px;
+  padding-bottom:50px;
+}
+
   .slide-content {
         position:absolute;
         float: left;

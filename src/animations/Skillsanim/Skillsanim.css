@@ -1,0 +1,11 @@
+#fee{
+  height: 250px;
+  width: 250px;
+margin:auto;
+
+}
+@media(max-width:900px){
+  #fee{
+    display:none;
+  }
+}
