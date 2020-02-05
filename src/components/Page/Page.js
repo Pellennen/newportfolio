@@ -9,6 +9,16 @@ const Page = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
+  .container{
+    display:inline-block;
+  }
+  .ItSAMe{
+    margin:10px;
+    position:relative;
+    float:left;
+    padding-left:750px;
+    margin-top:2em;
+  }
   ul {
     columns:2;
     width:100%;
@@ -40,9 +50,12 @@ const Page = styled.main`
 
   }
   .slide-content {
-        display:block;
+        position:absolute;
+        float: left;
         width:50%;
         height:100%;
+        padding-left:350px;
+        padding-bottom:200px;
 
 
         .txt-wrapper {
@@ -60,7 +73,7 @@ const Page = styled.main`
             @media(max-width:900px){
               font-size:2.3rem;
               margin-bottom:1rem;
-              padding-left:200px;
+              padding-left:100px;
               line-height:1;
               font-weight:600;
             }
@@ -76,7 +89,7 @@ const Page = styled.main`
               margin-bottom:1rem;
               line-height:1;
               font-weight:600;
-              padding-left:50px;
+              padding-left:20px;
 
 
             }
@@ -84,12 +97,12 @@ const Page = styled.main`
 
           p {
             @media(max-width:900px){
-              padding-left:200px;
+              padding-left:100px;
               font-size:0.8rem;
 
             }
             @media(max-width:576px){
-              padding-left:50px;
+              padding-left:20px;
               font-size:0.8rem;
 
 
@@ -98,6 +111,9 @@ const Page = styled.main`
 
           }
         }
+
+
+
 
 
 
