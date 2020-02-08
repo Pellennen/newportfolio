@@ -106,7 +106,7 @@ const Page = styled.main`
               margin-bottom:1rem;
               line-height:1;
               font-weight:600;
-              padding-left:20px;
+              padding-left:10px
 
 
             }
@@ -119,7 +119,7 @@ const Page = styled.main`
 
             }
             @media(max-width:576px){
-              padding-left:20px;
+              padding-left:10px;
               font-size:0.8rem;
 
 
