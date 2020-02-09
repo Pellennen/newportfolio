@@ -17,11 +17,7 @@ const Skills = () => {
     <Page style={{ background: "lightpink" }}>
       {transitions.map(({ item, props, key }) => (
         <animated.span key={key} style={props}>
-
-
               <div className="Listcontainer">
-
-
               <ul>
                 <li>Es6 Level: Intermediate </li>
                 <li>React Level: Beginner</li>

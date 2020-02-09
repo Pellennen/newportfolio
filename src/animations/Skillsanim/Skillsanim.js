@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactVivus from 'react-vivus';
-import svg from './drawing-1_animated.svg';
+import svg from './skills.svg';
 import './Skillsanim.css'
 
 const Skillsanim = () => (
