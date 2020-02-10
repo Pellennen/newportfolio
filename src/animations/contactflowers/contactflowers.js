@@ -1,19 +1,18 @@
 import React from 'react';
 import ReactVivus from 'react-vivus';
-import svg from './skills.svg';
-import './Skillsanim.css'
-
-const Skillsanim = () => (
+import svg from './drawing4_animated.svg';
+import './contactflowers.css'
+const ContactFlowers = () => (
   <ReactVivus
-    id="fee"
+    id="faa"
     option={{
       file: svg,
       animTimingFunction: 'EASE',
-      duration:'170',
-      type: 'delayed',
+      duration:'1000',
+      type: 'sync',
       onReady: console.log
     }}
     callback={console.log}
   />
 );
-export default Skillsanim;
+export default ContactFlowers;

@@ -1,7 +1,8 @@
 import React from "react";
 import { useTransition, animated, config } from "react-spring";
 import useRouter from "../useRouter";
-
+import ContactFlowers from "../animations/contactflowers/contactflowers"
+import "./contact.css"
 import Contact from "../components/Contact/Contact"
 
 const Skills = () => {
@@ -17,8 +18,13 @@ const Skills = () => {
  <>
       {transitions.map(({ item, props, key }) => (
         <animated.span key={key} style={props}>
-
+        <div className="animatedcontainer">
+        <div className="contactcontainer">
+        <ContactFlowers/>
         <Contact/>
+        </div>
+        </div>
+
         </animated.span>
       ))}
     </>

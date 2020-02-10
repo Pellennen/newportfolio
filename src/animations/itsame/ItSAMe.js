@@ -7,8 +7,9 @@ const ItSAMe = () => (
     id="foo"
     option={{
       file: svg,
-      animTimingFunction: 'EASE',
-      type: 'oneByOne',
+      animTimingFunction: 'EASE_IN',
+      duration:'170',
+      type: 'delayed',
       onReady: console.log
     }}
     callback={console.log}

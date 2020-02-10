@@ -19,6 +19,11 @@ const Page = styled.main`
     padding-left:750px;
     margin-top:2em;
   }
+  .contactcontainer{
+    position:relative;
+    width:400px;
+    height:600px;
+  }
 
 .Listcontainer{
   top: 0;
